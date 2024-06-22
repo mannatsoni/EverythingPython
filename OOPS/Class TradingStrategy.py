@@ -26,10 +26,11 @@ class TradingStrategy:
     
 
 
-momentum = TradingStrategy("BTC", 5000)
+momentum = TradingStrategy("BTC", 1000000)
 
 print(momentum.symbol)
 
-momentum.Buy(120,10)
+momentum.Buy(120,100)
+momentum.Status()
 print(momentum.amount)
 print(momentum.position)
