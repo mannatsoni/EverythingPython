@@ -30,6 +30,6 @@ momentum = TradingStrategy("BTC", 5000)
 
 print(momentum.symbol)
 
-momentum.Buy(1200,3)
+momentum.Buy(120000000,10)
 print(momentum.amount)
 print(momentum.position)
